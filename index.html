@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="js/jquery.mobile-1.4.5.min.css">
+<link rel="stylesheet" type = "text/css" href="css/style.css">
+<script src="js/jquery-1.11.3.min.js"></script>
+<script src="js/jquery.mobile-1.4.5.min.js"></script>
+</head>
+<body>
+
+<div data-role="page" id="pageone">
+  <div data-role = "header">
+    <h3>SCOREBOARD</h3>
+  </div>
+
+  <div data-role="main" class="ui-content">
+    <div class = "header-scorebox">
+			<div class =  "container-left-scorebox">
+				 <div data-role="main" class="ui-content">
+					
+							<p class = "score-text"id = "clicks">0</p>					
+							<button type="button"  class="ui-btn ui-btn-inline" onClick="one_point()">+1 Point</button>
+							<button type="button"  class="ui-btn ui-btn-inline" onClick="two_point()">+2 Points</button>
+							<button type="button"  class="ui-btn ui-btn-inline" onClick="three_point()">+3 Points</button>
+							<button type="button"  class="ui-btn ui-btn-inline" onClick="onClickReset()">Reset</button>
+				
+					
+					</div>
+			</div>
+			<div class = "container-right-scorebox">
+			
+					 <div data-role="main" class="ui-content">
+						
+							<p class = "score-text"id = "clicks2">0</p>					
+							<button type="button"  class="ui-btn ui-btn-inline" onClick="one_point2()">+1 Point</button>
+							<button type="button"  class="ui-btn ui-btn-inline" onClick="two_point2()">+2 Points</button>
+							<button type="button"  class="ui-btn ui-btn-inline" onClick="three_point2()">+3 Points</button>
+							<button type="button"  class="ui-btn ui-btn-inline" onClick="onClickReset2()">Reset</button>					
+					</div>	
+			</div>	
+			
+    
+   
+	</div>
+	</div>
+
+		
+</div>
+
+<!-- JAVASCRIPT -->
+		<script src="js/jquery.min.js"></script>
+		<script src="js/moment.min.js"></script>
+		<script src="js/script.js"></script>
+		<script src="js/script-custom.js"></script>
+
+
+</body>
+</html>
+

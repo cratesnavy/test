@@ -1,0 +1,52 @@
+@import url(https://fonts.googleapis.com/css?family=Orbitron:400,500,700,900);
+@import url(https://fonts.googleapis.com/css?family=Lato:400,400italic,700,300);
+
+p,
+span,{
+	font-family: 'Lato', sans-serif;
+}
+
+
+h1
+h2,
+h3,
+h4,
+h5,
+h6,{
+	font-family: 'Lato', sans-serif;
+	font-weight:700;
+}
+
+.ui-header.ui-bar-inherit {
+    padding: 30px 20px;
+}
+.header-scorebox {
+	width:100%;
+	height:auto;
+}
+
+.container-left-scorebox,
+.container-right-scorebox
+{
+	width:50%;
+	height:auto;
+	float:left;
+	background-color:#000;	
+	margin:0;
+}
+.score-box-A,
+.score-box-B{
+	padding:20px 20px;
+}
+.score-text {
+	text-align:center;
+	font-family: 'Orbitron', sans-serif;
+	font-size:60px;
+	color:red;	
+}
+button.ui-btn.ui-shadow.ui-corner-all {
+    width: 30%;
+    margin: auto;
+}
+
+
